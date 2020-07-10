@@ -26,6 +26,9 @@ import "fmt"
 // ---------------------------------------------------------
 
 func main() {
-	fmt.Println("Michael")
+	fmt.Println("Michael", "Rizzo")
 	fmt.Println("Nico")
 }
+
+//print will go all in one line no matter what and println will seperate the lines
+//you must use import "module"
