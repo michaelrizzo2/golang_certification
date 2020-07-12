@@ -8,6 +8,10 @@
 
 package main
 
+import (
+	"fmt"
+)
+
 // ---------------------------------------------------------
 // EXERCISE: Shy Semicolons
 //
@@ -17,6 +21,8 @@ package main
 //  2. Observe how Go fixes them for you
 //
 // ---------------------------------------------------------
-
+//using a semicolon will alow go to seperate the commands automatically.
 func main() {
+	fmt.Println("Hello")
+	fmt.Println("World")
 }
