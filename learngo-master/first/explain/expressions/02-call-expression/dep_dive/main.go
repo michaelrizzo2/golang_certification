@@ -43,7 +43,7 @@ func main() {
 	//   "fmt" package
 
 	// Exported = First Letter is uppercase
-	fmt.Println(runtime.NumCPU())
+	fmt.Println(runtime.NumCPU() + 1)
 
 	// Go cannot call Println function by itself.
 	// That's why you need to call it here.
