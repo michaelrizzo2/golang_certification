@@ -19,7 +19,10 @@ import keyword makes another package available
 import "fmt" lets you access fmt package's functionality
   here in this file.
 */
-import "fmt"
+import (
+	"fmt"
+	"runtime"
+)
 
 // "func main" is special.
 //
@@ -40,7 +43,7 @@ func main() {
 	//   "fmt" package
 
 	// Exported = First Letter is uppercase
-	fmt.Println("Hello Gopher!")
+	fmt.Println(runtime.NumCPU())
 
 	// Go cannot call Println function by itself.
 	// That's why you need to call it here.
