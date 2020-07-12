@@ -1,4 +1,4 @@
-package my_printer
+package myprinter
 
 import (
 	"fmt"
