@@ -6,6 +6,7 @@
 // In-person training  : https://www.linkedin.com/in/inancgumus/
 // Follow me on twitter: https://twitter.com/inancgumus
 
+//package main makes this an executable program
 // package main is a special package
 // it allows Go to create an executable file
 package main
