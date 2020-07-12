@@ -20,6 +20,10 @@ import keyword makes another package available
 import "fmt" lets you access fmt package's functionality
   here in this file.
 */
+
+/*
+thie is the main function and go will execute this functin first.
+*/
 import (
 	"fmt"
 	"runtime"
