@@ -8,6 +8,8 @@
 
 package main
 
+import "fmt"
+
 // ---------------------------------------------------------
 // EXERCISE: Print the literals
 //
@@ -25,4 +27,9 @@ package main
 
 func main() {
 	// Use fmt.Println()
+	fmt.Println(42, 5646)  //This will print integers
+	fmt.Println(.52, 6.28) //This will print floats
+	fmt.Println(true, false)
+	fmt.Println("Michael Rizzo")
+
 }
