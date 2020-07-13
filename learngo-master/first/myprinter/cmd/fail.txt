@@ -1,3 +1,0 @@
-cannot find package "myprinter/myprinter.go" in any of:
-	/usr/lib/go/src/myprinter/myprinter.go (from $GOROOT)
-	/home/michael/go/src/myprinter/myprinter.go (from $GOPATH)

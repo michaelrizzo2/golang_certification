@@ -1,8 +1,6 @@
 package myprinter
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func Hello() {
 	fmt.Println("Hello")
