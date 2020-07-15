@@ -8,6 +8,10 @@
 
 package main
 
+var age int
+
+//package level  variables do not generate an error when you do not use it.
+
 // ---------------------------------------------------------
 // EXERCISE: Package Variable
 //
