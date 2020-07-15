@@ -26,10 +26,12 @@ package main
 // ---------------------------------------------------------
 
 func main() {
-	// var ? int
-	// var ? int
-	// var ? int
-	// var ? int
-	// var ? int
-	// var ? int
+	//var 3speed int
+	//var !speed int
+	//var sp?eed int
+	//var var int
+	//var func int
+	//var package int
 }
+
+//escape characters cannot be in the name of a variable and you cannot use known keywords as a variable name.
