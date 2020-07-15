@@ -8,6 +8,8 @@
 
 package main
 
+)
+
 // ---------------------------------------------------------
 // EXERCISE: Unused
 //
@@ -21,5 +23,7 @@ package main
 //  Do not print the variable
 // ---------------------------------------------------------
 
+var isLiquid bool
 func main() {
+_ = isLiquid
 }
