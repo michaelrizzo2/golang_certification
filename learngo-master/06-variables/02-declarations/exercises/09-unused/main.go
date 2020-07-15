@@ -8,8 +8,6 @@
 
 package main
 
-)
-
 // ---------------------------------------------------------
 // EXERCISE: Unused
 //
@@ -24,6 +22,7 @@ package main
 // ---------------------------------------------------------
 
 var isLiquid bool
+
 func main() {
-_ = isLiquid
+	_ = isLiquid
 }
