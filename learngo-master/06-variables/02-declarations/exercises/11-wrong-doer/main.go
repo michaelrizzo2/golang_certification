@@ -8,6 +8,10 @@
 
 package main
 
+import (
+	"fmt"
+)
+
 // ---------------------------------------------------------
 // EXERCISE: Wrong doer
 //
@@ -20,9 +24,12 @@ package main
 // ---------------------------------------------------------
 
 func main() {
-	// First print it:
-	// fmt.Println(?)
 
 	// Then declare it:
-	// var ? ?
+	var age int
+
+	// First print it:
+	fmt.Println(age)
+
+	//go needs the variable to be declared first
 }
