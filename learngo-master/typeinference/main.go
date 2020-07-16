@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	var safe bool = true
+	var safe = true
 	fmt.Println(safe)
 
 	//var name type=value is one way
