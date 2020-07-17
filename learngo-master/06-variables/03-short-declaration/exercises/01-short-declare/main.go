@@ -8,6 +8,10 @@
 
 package main
 
+import (
+	"fmt"
+)
+
 // ---------------------------------------------------------
 // EXERCISE: Short Declare
 //
@@ -20,14 +24,13 @@ package main
 
 func main() {
 	// ADD YOUR DECLARATIONS HERE
-	//
-
+	i, f, s, b := 314, 3.14, "Hello", true
 	// THEN UNCOMMENT THE CODE BELOW
 
-	// fmt.Println(
-	// 	"i:", i,
-	// 	"f:", f,
-	// 	"s:", s,
-	// 	"b:", b,
-	// )
+	fmt.Println(
+		"i:", i,
+		"f:", f,
+		"s:", s,
+		"b:", b,
+	)
 }
