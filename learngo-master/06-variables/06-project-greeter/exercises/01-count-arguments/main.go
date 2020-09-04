@@ -8,6 +8,11 @@
 
 package main
 
+import (
+	"fmt"
+	"os"
+)
+
 // ---------------------------------------------------------
 // EXERCISE: Count the Arguments
 //
@@ -22,8 +27,9 @@ package main
 
 func main() {
 	// UNCOMMENT & FIX THIS CODE
-	// count := ?
+	count := len(os.Args)
 
 	// UNCOMMENT IT & THEN DO NOT TOUCH THIS CODE
-	// fmt.Printf("There are %d names.\n", count)
+	fmt.Printf("There are %d names.\n", count)
+	//./greeter bilbo balbo bungo
 }
